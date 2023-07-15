@@ -1,0 +1,109 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.slide-img {
+    width: 100%;
+    display: block;
+    height: 450px;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.navbar-brand {
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #000
+}
+
+#about {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#about h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#about h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#about p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+#about ul {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+}
+
+#about a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+}
+
+#footer h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer ul li {
+    margin-bottom: 5px;
+}
+
+#footer ul li i {
+    margin-right: 5px;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer ul.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer ul.navbar-nav li {
+    margin-left: 10px;
+}
+
+#footer ul.navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+}
